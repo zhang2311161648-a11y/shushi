@@ -47,4 +47,8 @@ APK SHA-256：`648497A0DEF201EF69D91AE709F239756802573EAE1426EEA93BFC8124C8CDC5`
 
 源码文件检查未发现私人签名文件、访问令牌、账本数据库或个人设备标识；Markdown 相对链接和 XML 解析检查通过。检查覆盖发布快照，不能保证发现所有潜在问题。
 
-GitHub Actions 使用公开源码构建调试包与运行单元测试；其线上结果以仓库 Actions 页面为准，不与本机验证混写。
+## GitHub Actions
+
+全新的 Ubuntu runner / JDK 21 环境已完成调试构建、上述模块的单元测试，以及 APK 和测试报告 artifact 上传。[成功的运行记录](https://github.com/zhang2311161648-a11y/shushi/actions/runs/38586720847)。
+
+首次线上运行在 SDK 安装步骤失败：setup-android 的默认配置试图安装已经下架的 `tools` 包。将配置明确改为 `platform-tools` 后重新运行成功，没有修改应用运行逻辑。`v1.4.29` 标签保留首次源码快照；main 和本次附带的源码 ZIP 包含随后验证通过的 CI 配置与这份记录。
