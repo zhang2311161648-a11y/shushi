@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choose_currency">Choose Currency</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="prefix_amount">Prefix (%s500)</string>
+    <string name="suffix_amount">Suffix (500%s)</string>
+    <string name="currency">Currency</string>
+    <string name="select_currency">Select Currency</string>
+    <string name="currency_position">Currency Position</string>
+    <string name="currency_format">Currency Format</string>
+    <string name="none">None(1234.23)</string>
+    <string name="number_format">Format(1,23,423.13)</string>
+    <string name="selected_currency">Selected Currency</string>
+    <string name="choose_preferred_currency">Choose your preferred currency</string>
+    <string name="where_symbol_appears">Where the symbol appears</string>
+    <string name="number_formatting_style">Number formatting style</string>
+    <string name="decimal_digits">Decimal places</string>
+    <string name="decimal_digits_description">Choose how many digits appear after the decimal point</string>
+    <string name="decimal_digits_value">%d places</string>
+
+</resources>

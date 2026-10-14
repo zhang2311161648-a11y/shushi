@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Settings</string>
+    <string name="theme">Theme</string>
+    <string name="color_palette">Color palette</string>
+    <string name="color_palette_message">Choose a curated accent for ShuShi</string>
+    <string name="analysis">Analysis</string>
+    <string name="select_currency">Select currency</string>
+    <string name="reminder_notification">Notification</string>
+    <string name="info">Info</string>
+    <string name="about_the_app_information">About app information</string>
+    <string name="rate_us_message">It will help us to grow better</string>
+    <string name="currency">Currency Customise</string>
+    <string name="selected_daily_reminder_time">We will remind you to add your expense at every on time</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="choose_web_browser">Choose web browser</string>
+
+    <string name="export">Export</string>
+    <string name="export_message">Export your data and analyse in your preferred format</string>
+
+    <string name="filter">Filter</string>
+    <string name="filter_message">Can select the date filter to view expenses</string>
+
+    <string name="developed_by">Developed by Hal Justin &amp; ChatGPT</string>
+    <string name="developer">Developer</string>
+    <string name="developer_name">Hal Justin &amp; ChatGPT</string>
+    <string name="open_source_projects">Open-source projects</string>
+    <string name="open_source_thanks">With thanks to open-source projects</string>
+    <string name="system_default">System Default</string>
+    <string name="app_version">Version: %s</string>
+    <string name="advanced">Advanced</string>
+    <string name="advanced_config_message">Manage advanced configurations for the app</string>
+    <string name="default_account">Default Account</string>
+    <string name="default_expense_category">Default Expense Category</string>
+    <string name="default_income_category">Default Income Category</string>
+    <string name="accounts_re_order">Accounts Re-Order</string>
+    <string name="accounts_re_order_message">Can change the order of the accounts list on the dashboard.</string>
+    <string name="backup">Backup</string>
+    <string name="backup_message">Create your data backup and restore them at any devices.</string>
+    <string name="restore">Restore</string>
+    <string name="restore_message">Restore your data to retrieve your data back into devices.</string>
+    <string name="import_data">Import data</string>
+    <string name="import_data_message">Import transactions from a ShuShi CSV export</string>
+    <string name="import_data_warning">Choose a CSV exported by ShuShi. Existing local data will be kept; imported transactions will be added to this ledger.</string>
+    <string name="confirm_import">Choose CSV</string>
+    <string name="import_success">Imported %1$d transactions; skipped %2$d rows.</string>
+    <string name="import_failed">Import failed. Please choose a ShuShi CSV export.</string>
+    <string name="defaults">Defaults</string>
+    <string name="others">Other Settings</string>
+
+    <string name="personalization">Personalization</string>
+    <string name="notifications">Notifications</string>
+    <string name="data_and_backup"><![CDATA[Data & Backup]]></string>
+    <string name="security">Security</string>
+    <string name="support">Acknowledgements</string>
+    <string name="user_feedback">User feedback</string>
+    <string name="user_feedback_message">Tell Hal Justin what ShuShi could improve</string>
+
+    <string name="compact_summary">Compact Summary</string>
+    <string name="compact_summary_message">Show a smaller summary widget on the home screen</string>
+
+    <string name="app_lock">App Lock</string>
+    <string name="app_lock_message">Require biometric or device credentials when opening the app</string>
+
+    <string name="smart_category_section">Smart category</string>
+    <string name="smart_category_settings">Smart category suggestions</string>
+    <string name="smart_category_settings_message">Suggest categories from notes and your local choices</string>
+    <string name="smart_category_enabled">Smart category suggestions</string>
+    <string name="smart_category_enabled_message">Suggestions and learning stay on this device</string>
+    <string name="smart_category_privacy">ShuShi remembers your category choices locally. Notes, transactions and learned rules are not uploaded by this feature.</string>
+    <string name="my_category_learning">My category learning</string>
+    <string name="learned_rule_count">Learned %d rules</string>
+    <string name="clear_learned_rules">Clear all learned rules</string>
+    <string name="clear_learned_rules_confirm">Clear all local category learning?</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="no_learned_rules">No learned rules yet</string>
+    <string name="navigation_order">Navigation order</string>
+    <string name="navigation_order_message">Choose the order of the four tabs at the bottom</string>
+    <string name="navigation_order_reset">Restore default order</string>
+    <string name="navigation_order_saved">Navigation order saved</string>
+    <string name="navigation_details">Details</string>
+    <string name="navigation_stats">Stats</string>
+    <string name="navigation_me">Me</string>
+    <string name="navigation_assets">Assets</string>
+    <string name="navigation_move_up">Move up</string>
+    <string name="navigation_move_down">Move down</string>
+    <string name="open_notification_access">Notification Access</string>
+</resources>

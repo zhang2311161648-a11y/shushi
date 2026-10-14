@@ -1,0 +1,378 @@
+package com.naveenapps.expensemanager.feature.category.transaction
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.outlined.Edit
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FloatingActionButton
+import androidx.compose.material3.FloatingActionButtonDefaults
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.core.graphics.toColorInt
+import com.naveenapps.designsystem.theme.NaveenAppsPreviewTheme
+import com.naveenapps.designsystem.utils.AppPreviewsLightAndDarkMode
+import com.naveenapps.expensemanager.core.common.utils.UiState
+import com.naveenapps.expensemanager.core.designsystem.components.EmptyItem
+import com.naveenapps.expensemanager.core.designsystem.ui.components.AppCardView
+import com.naveenapps.expensemanager.core.designsystem.ui.components.AppCardViewDefaults
+import com.naveenapps.expensemanager.core.designsystem.ui.components.ExpenseManagerTopAppBar
+import com.naveenapps.expensemanager.core.designsystem.ui.components.PieChartUiData
+import com.naveenapps.expensemanager.core.designsystem.ui.components.PieChartView
+import com.naveenapps.expensemanager.core.model.Amount
+import com.naveenapps.expensemanager.core.model.CategoryTransaction
+import com.naveenapps.expensemanager.core.model.CategoryTransactionState
+import com.naveenapps.expensemanager.core.model.CategoryType
+import com.naveenapps.expensemanager.core.model.PieChartData
+import com.naveenapps.expensemanager.core.model.isExpense
+import com.naveenapps.expensemanager.feature.category.R
+import com.naveenapps.expensemanager.feature.category.list.getCategoryData
+import com.naveenapps.expensemanager.feature.filter.FilterView
+import org.koin.compose.viewmodel.koinViewModel
+import kotlin.random.Random
+
+
+@Composable
+fun CategoryTransactionTabScreen(
+    viewModel: CategoryTransactionListViewModel = koinViewModel()
+) {
+    val state by viewModel.state.collectAsState()
+
+    CategoryTransactionTabScreenContent(
+        state = state, onAction = viewModel::processAction
+    )
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun CategoryTransactionTabScreenContent(
+    state: UiState<CategoryTransactionState>,
+    onAction: (CategoryTransactionAction) -> Unit,
+) {
+    Scaffold(
+        topBar = {
+            ExpenseManagerTopAppBar(
+                title = stringResource(R.string.categories),
+                actions = {
+                    IconButton(onClick = {
+                        onAction.invoke(CategoryTransactionAction.OpenCategoryList)
+                    }) {
+                        Icon(
+                            imageVector = Icons.Outlined.Edit,
+                            contentDescription = stringResource(id = R.string.edit),
+                        )
+                    }
+                },
+            )
+        },
+        floatingActionButton = {
+            FloatingActionButton(
+                onClick = {
+                    onAction.invoke(CategoryTransactionAction.OpenTransactionCreate)
+                },
+                shape = RoundedCornerShape(16.dp),
+                containerColor = MaterialTheme.colorScheme.primaryContainer,
+                elevation = FloatingActionButtonDefaults.elevation(
+                    defaultElevation = 10.dp,
+                ),
+            ) {
+                Icon(
+                    imageVector = Icons.Default.Add,
+                    contentDescription = "",
+                )
+            }
+        },
+    ) { innerPadding ->
+        CategoryTransactionListScreenContent(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = innerPadding.calculateTopPadding()),
+            state = state,
+            changeChart = {
+                onAction.invoke(CategoryTransactionAction.SwitchCategoryType)
+            },
+            onItemClick = {
+                onAction.invoke(CategoryTransactionAction.OpenCategoryDetails(it))
+            },
+        )
+    }
+}
+
+@Composable
+private fun CategoryTransactionListScreenContent(
+    state: UiState<CategoryTransactionState>,
+    changeChart: () -> Unit,
+    onItemClick: (CategoryTransaction) -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    when (state) {
+        UiState.Empty -> {
+            Box(
+                modifier = modifier.fillMaxSize(),
+                contentAlignment = Alignment.Center,
+            ) {
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    modifier = Modifier.padding(horizontal = 48.dp),
+                ) {
+                    Text(
+                        text = stringResource(id = R.string.no_transactions_available),
+                        style = MaterialTheme.typography.bodyLarge.copy(
+                            fontWeight = FontWeight.Medium,
+                        ),
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        textAlign = TextAlign.Center,
+                    )
+                }
+            }
+        }
+
+        UiState.Loading -> {
+            Box(
+                modifier = modifier.fillMaxSize(),
+                contentAlignment = Alignment.Center,
+            ) {
+                CircularProgressIndicator(
+                    modifier = Modifier.size(48.dp),
+                    strokeWidth = 3.dp,
+                    strokeCap = StrokeCap.Round,
+                )
+            }
+        }
+
+        is UiState.Success -> {
+            val indicationSource = remember { MutableInteractionSource() }
+            val isExpense = state.data.categoryType.isExpense()
+            val categoryTransactions = state.data.categoryTransactions
+
+            LazyColumn(
+                modifier = modifier.fillMaxWidth(),
+                contentPadding = PaddingValues(
+                    bottom = 88.dp,
+                ),
+            ) {
+                item {
+                    FilterView(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(end = 6.dp),
+                    )
+                }
+                // ── Pie chart card ─────────────────────────────────
+                item(key = "chart") {
+                    AppCardView(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(vertical = 12.dp, horizontal = 16.dp),
+                    ) {
+                        Column(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                        ) {
+                            PieChartView(
+                                totalAmountText = (if (isExpense) stringResource(id = R.string.expense)
+                                else stringResource(id = R.string.income)) + "\n" + state.data.totalAmount.amountString,
+                                chartData = state.data.pieChartData.map {
+                                    PieChartUiData(
+                                        it.titleResId?.let { resId -> stringResource(resId) } ?: it.name,
+                                        it.value,
+                                        it.color.toColorInt(),
+                                    )
+                                },
+                                chartHeight = 600,
+                                hideValues = state.data.hideValues,
+                                modifier = Modifier
+                                    .padding(vertical = 12.dp)
+                                    .clickable(indicationSource, null) {
+                                        changeChart.invoke()
+                                    },
+                            )
+
+                            // Tap hint
+                            Text(
+                                text = stringResource(R.string.tap_chart_to_switch_to)
+                                        + getCategoryGroupTitleInverted(isExpense),
+                                style = MaterialTheme.typography.labelSmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.4f),
+                                modifier = Modifier.padding(bottom = 14.dp),
+                            )
+                        }
+                    }
+                }
+
+                item(key = "section_header") {
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(top = 6.dp, bottom = 10.dp, start = 16.dp, end = 16.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        Text(
+                            text = getCategoryGroupTitle(isExpense).uppercase(),
+                            style = MaterialTheme.typography.labelSmall.copy(
+                                fontWeight = FontWeight.SemiBold,
+                                letterSpacing = 0.8.sp,
+                            ),
+                            color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.55f),
+                            modifier = Modifier.weight(1f),
+                        )
+                        Text(
+                            text = pluralStringResource(
+                                R.plurals.category_count,
+                                categoryTransactions.size,
+                                categoryTransactions.size
+                            ),
+                            style = MaterialTheme.typography.labelSmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.4f),
+                        )
+                    }
+                }
+
+                // ── Empty state ────────────────────────────────────
+                if (categoryTransactions.isEmpty()) {
+                    item(key = "empty") {
+                        EmptyItem(
+                            modifier = Modifier
+                                .fillMaxSize()
+                                .padding(top = 32.dp, start = 16.dp, end = 16.dp),
+                            emptyItemText = stringResource(
+                                id = R.string.no_transactions_available,
+                            ),
+                            icon = com.naveenapps.expensemanager.core.designsystem.R.drawable.ic_no_grouping_available,
+                        )
+                    }
+                } else {
+
+                    // ── Category list — single grouped card ────────
+                    item(key = "category_list") {
+                        Column(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clip(RoundedCornerShape(16.dp))
+                                .background(
+                                    MaterialTheme.colorScheme.surfaceContainerLow,
+                                ),
+                        ) {
+                            categoryTransactions.forEachIndexed { index, categoryTransaction ->
+                                AppCardView(
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .padding(start = 16.dp, end = 16.dp, bottom = 2.dp),
+                                    shape = AppCardViewDefaults.cardShape(
+                                        index,
+                                        categoryTransactions
+                                    )
+                                ) {
+                                    CategoryTransactionItem(
+                                        modifier = Modifier
+                                            .clickable {
+                                                onItemClick.invoke(categoryTransaction)
+                                            },
+                                        name = categoryTransaction.category.titleResId?.let {
+                                            stringResource(it)
+                                        } ?: categoryTransaction.category.name,
+                                        icon = categoryTransaction.category.storedIcon.name,
+                                        iconBackgroundColor = categoryTransaction.category.storedIcon.backgroundColor,
+                                        customImagePath = categoryTransaction.category.storedIcon.customImagePath,
+                                        amount = categoryTransaction.amount.amountString ?: "",
+                                        percentage = categoryTransaction.percent,
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun getCategoryGroupTitle(isExpense: Boolean): String {
+    return if (isExpense) {
+        stringResource(R.string.expense)
+    } else {
+        stringResource(R.string.income)
+    }
+}
+
+@Composable
+private fun getCategoryGroupTitleInverted(isExpense: Boolean): String {
+    return getCategoryGroupTitle(isExpense.not())
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+//  Preview data
+// ═══════════════════════════════════════════════════════════════════════
+
+val getPieChartData = listOf(
+    PieChartData("Chrome", 34.68f, "#43A546"),
+    PieChartData("Firefox", 16.60F, "#F44336"),
+    PieChartData("Safari", 16.15F, "#166EF7"),
+    PieChartData("Internet Explorer", 15.62F, "#121212"),
+)
+
+fun getRandomCategoryTransactionData(): CategoryTransactionState {
+    return CategoryTransactionState(
+        pieChartData = getPieChartData,
+        totalAmount = Amount(300.0, "300.00$"),
+        categoryTransactions = buildList {
+            repeat(15) {
+                add(
+                    CategoryTransaction(
+                        category = getCategoryData(it, CategoryType.EXPENSE),
+                        amount = Amount(300.0, "300.00$"),
+                        percent = Random(100).nextFloat(),
+                        transaction = emptyList(),
+                    ),
+                )
+            }
+        },
+        categoryType = CategoryType.EXPENSE,
+    )
+}
+
+fun getUiState(): UiState<CategoryTransactionState> {
+    return UiState.Success(data = getRandomCategoryTransactionData())
+}
+
+@AppPreviewsLightAndDarkMode
+@Composable
+private fun CategoryTransactionTabScreenPreview() {
+    NaveenAppsPreviewTheme(padding = 0.dp) {
+        CategoryTransactionTabScreenContent(
+            state = getUiState(),
+            onAction = {},
+        )
+    }
+}

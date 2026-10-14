@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choose_theme">选择主题</string>
+    <string name="choose_color_palette">选择配色</string>
+    <string name="choose_color_palette_message">精选低饱和色彩，让每天记账更安静</string>
+    <string name="palette_burgundy">酒红典藏</string>
+    <string name="palette_burgundy_description">深酒红、淡米色与柔和金色</string>
+    <string name="palette_morandi_sage">莫兰迪灰绿</string>
+    <string name="palette_morandi_sage_description">安静灰绿，搭配温暖中性色</string>
+    <string name="palette_lavender_mist">淡紫雾色</string>
+    <string name="palette_lavender_mist_description">低饱和淡紫，搭配安静的中性色</string>
+    <string name="palette_macaron_mist">雾感马卡龙</string>
+    <string name="palette_macaron_mist_description">奶油感低饱和色，带一点安静的玫瑰调</string>
+    <string name="palette_oat_cream">燕麦奶油</string>
+    <string name="palette_oat_cream_description">柔和燕麦、奶油与沉静棕色</string>
+    <string name="palette_dusty_rose">雾粉豆沙</string>
+    <string name="palette_dusty_rose_description">低饱和豆沙，带一点克制的复古感</string>
+    <string name="palette_misty_slate">雾蓝灰</string>
+    <string name="palette_misty_slate_description">轻雾蓝灰，清爽而不张扬</string>
+    <string name="palette_custom">自定义调色</string>
+    <string name="palette_custom_description">个性化自由调色与自定义背景照片</string>
+</resources>

@@ -1,0 +1,147 @@
+<resources>
+
+    <string name="app_name">书史记账</string>
+
+    <string name="jiangji_details">明细</string>
+    <string name="jiangji_stats">图表</string>
+    <string name="jiangji_me">我的</string>
+    <string name="jiangji_assets">资产</string>
+    <string name="jiangji_add_transaction">记一笔</string>
+
+
+    <!-- Failure message strings -->
+
+    <string name="select">选择</string>
+
+    <string name="title_home">首页</string>
+    <string name="view_all">查看全部</string>
+    <string name="accounts">账户</string>
+
+    <string name="category_name">分类名称</string>
+
+
+    <string name="title_graph">图表</string>
+
+
+    <string name="currency">货币</string>
+
+    <string name="choose_color">选择颜色</string>
+    <string name="choose_icon">选择图标</string>
+
+
+    <string name="categories">分类</string>
+    <string name="total">总计</string>
+    <string name="transaction_summary">摘要</string>
+    <string name="clear_all">清除全部</string>
+    <string name="category_selection_message">请至少选择一个分类以继续</string>
+    <string name="share">分享</string>
+    <string name="hello">你好！</string>
+    <string name="guest">访客</string>
+    <string name="balance">余额</string>
+
+    <string name="add_transaction">添加交易</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="settings">设置</string>
+    <string name="analysis">分析</string>
+    <string name="transaction">交易</string>
+
+    <string name="app_lock_title">解锁 Expense Manager</string>
+    <string name="app_lock_description">验证身份以继续</string>
+    <string name="app_lock_unlock">解锁</string>
+
+    <!-- JiangJi shell -->
+    <string name="jiangji_my_space">我的空间</string>
+    <string name="jiangji_private_local_data">本地数据，只属于你</string>
+    <string name="jiangji_slogan">记下生活，写成你的历史。</string>
+    <string name="jiangji_my_ledger">我的账本</string>
+    <string name="jiangji_default_ledger_subtitle">点击管理账本</string>
+    <string name="jiangji_open_ledger">打开账本</string>
+    <string name="save">保存</string>
+    <string name="jiangji_profile_edit">编辑个人资料</string>
+    <string name="jiangji_profile_name">用户名</string>
+    <string name="jiangji_profile_choose_avatar">选择头像</string>
+    <string name="jiangji_profile_remove_avatar">移除头像</string>
+    <string name="jiangji_ledger_title">账本</string>
+    <string name="jiangji_ledger_subtitle">不同用途分开记录，切换后数据彼此独立。</string>
+    <string name="jiangji_ledger_create">新建账本</string>
+    <string name="jiangji_ledger_rename">重命名账本</string>
+    <string name="jiangji_ledger_name">账本名称</string>
+    <string name="jiangji_ledger_list_title">我的账本</string>
+    <string name="jiangji_ledger_current">当前账本</string>
+    <string name="jiangji_ledger_more">更多操作</string>
+    <string name="jiangji_ledger_archive">归档账本</string>
+    <string name="jiangji_ledger_archive_confirm">确定归档“%1$s”？归档后它不会出现在可用账本列表中。</string>
+    <string name="jiangji_manage">管理</string>
+    <string name="jiangji_account_management">账户管理</string>
+    <string name="jiangji_category_management">分类管理</string>
+    <string name="jiangji_budget_settings">预算设置</string>
+    <string name="jiangji_data_export">数据导出</string>
+    <string name="jiangji_data_import">数据导入</string>
+    <string name="jiangji_import_warning">请选择书史导出的 CSV 文件。当前本机数据会保留，导入的交易会加入当前账本。</string>
+    <string name="jiangji_confirm_import">选择 CSV</string>
+    <string name="jiangji_import_success">已导入 %1$d 条交易，跳过 %2$d 行。</string>
+    <string name="jiangji_import_failed">导入失败，请选择书史导出的 CSV 文件。</string>
+    <string name="jiangji_feedback">用户反馈</string>
+    <string name="jiangji_feedback_prompt">告诉我们书史还有哪些地方可以改进，你的建议会帮助我们做得更好。</string>
+    <string name="jiangji_feedback_contact">联系人：Hal Justin · zhang2311161648@gmail.com</string>
+    <string name="jiangji_feedback_hint">写下你的建议</string>
+    <string name="jiangji_feedback_send">打开邮件</string>
+    <string name="jiangji_preferences">偏好</string>
+    <string name="jiangji_appearance">外观</string>
+    <string name="jiangji_security">安全</string>
+    <string name="jiangji_language">语言</string>
+    <string name="jiangji_scheduled_reminder">定时记账提醒</string>
+    <string name="jiangji_about_app">关于%1$s</string>
+
+    <!-- JiangJi details and assets shell -->
+    <string name="jiangji_savings_tab">储蓄</string>
+    <string name="jiangji_anxiety_relief_tab">焦虑抚平器</string>
+    <string name="jiangji_savings_title">储蓄</string>
+    <string name="jiangji_savings_subtitle">记录每个月真正留下来的钱。</string>
+    <string name="jiangji_today_details">今天的明细</string>
+    <string name="jiangji_accounting_period">记账周期</string>
+    <string name="jiangji_current_period_overview">本周期概览</string>
+    <string name="jiangji_current_month_overview">本月概览</string>
+    <string name="jiangji_today_summary">消费明细</string>
+    <string name="jiangji_budget">预算</string>
+    <string name="jiangji_view_all">查看全部</string>
+    <string name="jiangji_account_balance">账户余额</string>
+    <string name="jiangji_total_balance">总余额</string>
+    <string name="jiangji_no_accounts">还没有账户，先添加一个账户吧</string>
+    <string name="jiangji_more_accounts">更多账户 ›</string>
+    <string name="jiangji_income">收入</string>
+    <string name="jiangji_expense">支出</string>
+    <string name="jiangji_net_balance">结余</string>
+    <string name="jiangji_record_daily">记录一笔日常</string>
+    <string name="jiangji_balance_value">余额 %1$s</string>
+    <string name="jiangji_today_no_records">今天还没有记录</string>
+    <string name="jiangji_settings_summary_hint">账户与分类管理、外观偏好等</string>
+    <string name="jiangji_calendar_tab">收支日历</string>
+    <string name="jiangji_savings_plan_tab">存钱计划</string>
+    <string name="jiangji_fixed_savings">定额存钱法</string>
+    <string name="jiangji_flexible_savings">灵活存钱法</string>
+    <string name="jiangji_52_weeks_savings">52周存钱法</string>
+    <string name="jiangji_365_days_savings">365天存钱法</string>
+    <string name="jiangji_my_savings_plans">我的计划</string>
+    <string name="jiangji_target_amount">目标金额</string>
+    <string name="jiangji_saved_amount">已存金额</string>
+    <string name="jiangji_remaining_amount">剩余未存</string>
+    <string name="jiangji_save_deposit">存入打卡</string>
+    <string name="jiangji_create_savings_plan">创建存钱计划</string>
+    <string name="jiangji_plan_name">计划名称</string>
+    <string name="jiangji_item_mood">获得心情</string>
+    <string name="jiangji_item_mood_prompt">得到该物品时是什么心情？</string>
+    <string name="jiangji_mood_happy">开心 🥰</string>
+    <string name="jiangji_mood_heart">心动 💖</string>
+    <string name="jiangji_mood_reward">犒劳 ✨</string>
+    <string name="jiangji_mood_healing">治愈 🌿</string>
+    <string name="jiangji_mood_calm">平静 ☕</string>
+    <string name="jiangji_mood_impulse">冲动 ⚡</string>
+    <string name="jiangji_custom_background">自定义背景图</string>
+    <string name="jiangji_choose_background_image">选择照片</string>
+    <string name="jiangji_remove_background_image">清除背景图</string>
+    <string name="jiangji_custom_color_wheel">自定义调色盘</string>
+    <string name="uncategorized">未分类</string>
+    <string name="jiangji_first_record">记第一笔</string>
+</resources>

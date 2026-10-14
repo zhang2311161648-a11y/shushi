@@ -1,0 +1,100 @@
+<resources>
+
+    <string name="app_name">书史记账</string>
+
+    <string name="jiangji_details">明細</string>
+    <string name="jiangji_stats">統計</string>
+    <string name="jiangji_me">マイページ</string>
+    <string name="jiangji_assets">資産</string>
+    <string name="jiangji_add_transaction">追加</string>
+
+
+    <!-- Failure message strings -->
+
+    <string name="select">選択</string>
+
+    <string name="title_home">ホーム</string>
+    <string name="view_all">すべて表示</string>
+    <string name="accounts">アカウント</string>
+
+    <string name="category_name">カテゴリ名</string>
+
+
+    <string name="title_graph">グラフ</string>
+
+
+    <string name="currency">通貨</string>
+
+    <string name="choose_color">色を選択</string>
+    <string name="choose_icon">アイコンを選択</string>
+
+
+    <string name="categories">カテゴリ</string>
+    <string name="total">合計</string>
+    <string name="transaction_summary">サマリー</string>
+    <string name="clear_all">すべてクリア</string>
+    <string name="category_selection_message">続行するには少なくとも1つのカテゴリを選択してください</string>
+    <string name="share">共有</string>
+    <string name="hello">こんにちは!</string>
+    <string name="guest">ゲスト</string>
+    <string name="balance">残高</string>
+
+    <string name="add_transaction">取引を追加</string>
+    <string name="cancel">キャンセル</string>
+    <string name="ok">OK</string>
+    <string name="settings">設定</string>
+    <string name="analysis">分析</string>
+    <string name="transaction">取引</string>
+
+    <string name="app_lock_title">Expense Manager のロックを解除</string>
+    <string name="app_lock_description">続行するには本人確認を行ってください</string>
+    <string name="app_lock_unlock">ロック解除</string>
+
+    <string name="jiangji_my_space">マイスペース</string>
+    <string name="jiangji_private_local_data">ローカルデータ、あなた専用</string>
+    <string name="jiangji_slogan">暮らしを記録して、あなたの歴史に。</string>
+    <string name="jiangji_my_ledger">マイ帳簿</string>
+    <string name="jiangji_default_ledger_subtitle">デフォルトの帳簿 · タップして明細を表示</string>
+    <string name="jiangji_open_ledger">帳簿を開く</string>
+    <string name="jiangji_manage">管理</string>
+    <string name="jiangji_account_management">アカウント管理</string>
+    <string name="jiangji_category_management">カテゴリ管理</string>
+    <string name="jiangji_budget_settings">予算設定</string>
+    <string name="jiangji_data_export">データのエクスポート</string>
+    <string name="jiangji_data_import">データをインポート</string>
+    <string name="jiangji_import_warning">インポートすると、現在の帳簿が ShuShi バックアップで置き換えられます。残す必要がある場合は、先に現在のデータをバックアップしてください。</string>
+    <string name="jiangji_confirm_import">インポート</string>
+    <string name="jiangji_feedback">ユーザーフィードバック</string>
+    <string name="jiangji_feedback_prompt">ShuShi の改善点を教えてください。皆さまの提案がより良いアプリにつながります。</string>
+    <string name="jiangji_feedback_contact">連絡先：Hal Justin · zhang2311161648@gmail.com</string>
+    <string name="jiangji_feedback_hint">ご提案を入力</string>
+    <string name="jiangji_feedback_send">メールを開く</string>
+    <string name="jiangji_preferences">環境設定</string>
+    <string name="jiangji_appearance">外観</string>
+    <string name="jiangji_security">セキュリティ</string>
+    <string name="jiangji_language">言語</string>
+    <string name="jiangji_scheduled_reminder">定期リマインダー</string>
+    <string name="jiangji_about_app">%1$s について</string>
+    <string name="jiangji_savings_tab">貯蓄</string>
+    <string name="jiangji_anxiety_relief_tab">不安を和らげる</string>
+    <string name="jiangji_savings_title">貯蓄</string>
+    <string name="jiangji_savings_subtitle">毎月、本当に残せたお金を記録します。</string>
+    <string name="jiangji_today_details">今日の明細</string>
+    <string name="jiangji_accounting_period">記帳期間</string>
+    <string name="jiangji_current_period_overview">現在の期間の概要</string>
+    <string name="jiangji_current_month_overview">今月の概要</string>
+    <string name="jiangji_today_summary">今日の概要</string>
+    <string name="jiangji_view_all">すべて表示</string>
+    <string name="jiangji_account_balance">口座残高</string>
+    <string name="jiangji_total_balance">合計残高</string>
+    <string name="jiangji_no_accounts">アカウントがありません。まず追加してください。</string>
+    <string name="jiangji_more_accounts">その他のアカウント ›</string>
+    <string name="jiangji_income">収入</string>
+    <string name="jiangji_expense">支出</string>
+    <string name="jiangji_net_balance">収支残高</string>
+    <string name="jiangji_record_daily">日々の支出を記録</string>
+    <string name="jiangji_balance_value">残高 %1$s</string>
+    <string name="jiangji_today_no_records">今日はまだ記録がありません</string>
+    <string name="jiangji_first_record">最初の記録を追加</string>
+    <string name="uncategorized">未分類</string>
+</resources>

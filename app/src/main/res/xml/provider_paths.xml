@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path
+        name="external_files"
+        path="." />
+    <!-- Matches ImageStorageRepositoryImpl.CAPTURE_DIR (context.cacheDir/captured_images), the
+         temp destination handed to the camera app for a full-resolution capture. -->
+    <cache-path
+        name="captured_images"
+        path="captured_images/" />
+</paths>

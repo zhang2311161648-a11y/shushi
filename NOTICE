@@ -1,0 +1,12 @@
+ShuShi (书史记账)
+Copyright 2026 ShuShi contributors.
+
+This project is a modified derivative of Expense Manager:
+https://github.com/nkuppan/expensemanager
+Copyright 2023 Naveen Kumar Kuppan.
+The original Apache License 2.0 and source copyright notices are retained.
+
+ShuShi modifications include the Chinese UI and theme, ledger/account handling,
+savings plans, item ownership-cost tracking, full backup/restore, and statistics.
+A directory-level inventory of modified files is in docs/UPSTREAM.md.
+Third-party libraries retain their own licenses; see docs/THIRD_PARTY.md.

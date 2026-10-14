@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stats_month_increase">较上月增加 %1$s</string>
+    <string name="stats_month_decrease">较上月减少 %1$s</string>
+    <string name="stats_month_unchanged">较上月持平</string>
+    <string name="analysis">分析</string>
+    <string name="average_and_projected">平均值与预测</string>
+    <string name="day">天</string>
+    <string name="week">周</string>
+    <string name="month">月</string>
+    <string name="year">年</string>
+    <string name="no_chart_available">暂无可供分析的数据</string>
+    <string name="stats_expense_mode">支出</string>
+    <string name="stats_income_mode">收入</string>
+    <string name="expense_ranking">支出排行榜</string>
+    <string name="income_ranking">收入排行榜</string>
+    <string name="stats_total_for_period">当前周期汇总</string>
+    <string name="stats_no_records">这个周期还没有记录</string>
+    <string name="stats_record_transaction">去记一笔</string>
+    <string name="category_detail_expense">支出明细排行</string>
+    <string name="category_detail_income">收入明细排行</string>
+    <string name="sort_by_amount">按金额</string>
+    <string name="sort_by_time">按时间</string>
+    <string name="stats_current_period">当前周期</string>
+    <string name="stats_selected_month">%1$d年%2$02d月</string>
+    <string name="stats_choose_month">选择月份</string>
+    <string name="stats_year">年份</string>
+    <string name="stats_month_number">%1$02d月</string>
+    <string name="stats_previous_month">上个月</string>
+    <string name="stats_next_month">下个月</string>
+    <string name="stats_selected_week">%1$d年%2$02d月%3$02d日 - %4$d年%5$02d月%6$02d日</string>
+    <string name="stats_previous_week">上一周</string>
+    <string name="stats_next_week">下一周</string>
+    <string name="stats_selected_year">%1$d年</string>
+    <string name="stats_choose_year">选择年份</string>
+    <string name="stats_previous_year">上一年</string>
+    <string name="stats_next_year">下一年</string>
+    <string name="stats_trend_chart">趋势图</string>
+    <string name="stats_category_pie_chart">分类饼图</string>
+    <string name="stats_swipe_to_switch">左右滑动切换图表</string>
+    <string name="cancel">取消</string>
+</resources>

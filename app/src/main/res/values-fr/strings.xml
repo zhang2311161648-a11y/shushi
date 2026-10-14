@@ -1,0 +1,100 @@
+<resources>
+
+    <string name="app_name">书史记账</string>
+
+    <string name="jiangji_details">Détails</string>
+    <string name="jiangji_stats">Statistiques</string>
+    <string name="jiangji_me">Moi</string>
+    <string name="jiangji_assets">Actifs</string>
+    <string name="jiangji_add_transaction">Ajouter</string>
+
+
+    <!-- Failure message strings -->
+
+    <string name="select">Sélectionner</string>
+
+    <string name="title_home">Accueil</string>
+    <string name="view_all">Tout afficher</string>
+    <string name="accounts">Compte</string>
+
+    <string name="category_name">Nom de la catégorie</string>
+
+
+    <string name="title_graph">Graphique</string>
+
+
+    <string name="currency">Devise</string>
+
+    <string name="choose_color">Choisir une couleur</string>
+    <string name="choose_icon">Choisir une icône</string>
+
+
+    <string name="categories">Catégories</string>
+    <string name="total">Total</string>
+    <string name="transaction_summary">Résumé</string>
+    <string name="clear_all">Tout effacer</string>
+    <string name="category_selection_message">Vous devez sélectionner au moins une catégorie pour continuer</string>
+    <string name="share">Partager</string>
+    <string name="hello">Bonjour !</string>
+    <string name="guest">Invité</string>
+    <string name="balance">Solde</string>
+
+    <string name="add_transaction">Ajouter une transaction</string>
+    <string name="cancel">Annuler</string>
+    <string name="ok">OK</string>
+    <string name="settings">Paramètres</string>
+    <string name="analysis">Analyse</string>
+    <string name="transaction">Transaction</string>
+
+    <string name="app_lock_title">Déverrouiller Expense Manager</string>
+    <string name="app_lock_description">Vérifiez votre identité pour continuer</string>
+    <string name="app_lock_unlock">Déverrouiller</string>
+
+    <string name="jiangji_my_space">Mon espace</string>
+    <string name="jiangji_private_local_data">Données locales, rien que pour vous</string>
+    <string name="jiangji_slogan">Notez votre vie, écrivez votre histoire.</string>
+    <string name="jiangji_my_ledger">Mon livre de comptes</string>
+    <string name="jiangji_default_ledger_subtitle">Livre par défaut · Touchez pour voir les détails</string>
+    <string name="jiangji_open_ledger">Ouvrir le livre</string>
+    <string name="jiangji_manage">Gérer</string>
+    <string name="jiangji_account_management">Gestion des comptes</string>
+    <string name="jiangji_category_management">Gestion des catégories</string>
+    <string name="jiangji_budget_settings">Paramètres du budget</string>
+    <string name="jiangji_data_export">Exporter les données</string>
+    <string name="jiangji_data_import">Importer les données</string>
+    <string name="jiangji_import_warning">L’importation remplace le livre local actuel par une sauvegarde ShuShi. Sauvegardez vos données actuelles si vous souhaitez les conserver.</string>
+    <string name="jiangji_confirm_import">Importer</string>
+    <string name="jiangji_feedback">Avis utilisateur</string>
+    <string name="jiangji_feedback_prompt">Dites-nous ce que ShuShi pourrait améliorer. Vos suggestions nous aident à progresser.</string>
+    <string name="jiangji_feedback_contact">Contact : Hal Justin · zhang2311161648@gmail.com</string>
+    <string name="jiangji_feedback_hint">Votre suggestion</string>
+    <string name="jiangji_feedback_send">Ouvrir l’e-mail</string>
+    <string name="jiangji_preferences">Préférences</string>
+    <string name="jiangji_appearance">Apparence</string>
+    <string name="jiangji_security">Sécurité</string>
+    <string name="jiangji_language">Langue</string>
+    <string name="jiangji_scheduled_reminder">Rappels programmés</string>
+    <string name="jiangji_about_app">À propos de %1$s</string>
+    <string name="jiangji_savings_tab">Épargne</string>
+    <string name="jiangji_anxiety_relief_tab">Apaisement de l’anxiété</string>
+    <string name="jiangji_savings_title">Épargne</string>
+    <string name="jiangji_savings_subtitle">Notez ce que vous avez réellement mis de côté chaque mois.</string>
+    <string name="jiangji_today_details">Détails du jour</string>
+    <string name="jiangji_accounting_period">Période comptable</string>
+    <string name="jiangji_current_period_overview">Résumé de la période actuelle</string>
+    <string name="jiangji_current_month_overview">Résumé du mois actuel</string>
+    <string name="jiangji_today_summary">Résumé du jour</string>
+    <string name="jiangji_view_all">Tout afficher</string>
+    <string name="jiangji_account_balance">Solde du compte</string>
+    <string name="jiangji_total_balance">Solde total</string>
+    <string name="jiangji_no_accounts">Aucun compte pour le moment. Ajoutez-en un pour commencer.</string>
+    <string name="jiangji_more_accounts">Plus de comptes ›</string>
+    <string name="jiangji_income">Revenus</string>
+    <string name="jiangji_expense">Dépenses</string>
+    <string name="jiangji_net_balance">Solde net</string>
+    <string name="jiangji_record_daily">Enregistrer une dépense du jour</string>
+    <string name="jiangji_balance_value">Solde %1$s</string>
+    <string name="jiangji_today_no_records">Aucun enregistrement aujourd’hui</string>
+    <string name="jiangji_first_record">Enregistrer le premier</string>
+    <string name="uncategorized">Sans catégorie</string>
+</resources>

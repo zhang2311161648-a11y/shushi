@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_developer_label">开发者</string>
+    <string name="about_developer_name">Hal Justin &amp; ChatGPT</string>
+    <string name="about_acknowledgements">鸣谢开源项目支持</string>
+    <string name="about_open_source_repository">https://github.com/nkuppan/expensemanager.git</string>
+    <string name="system_default">系统默认</string>
+    <string name="app_version">版本：%s</string>
+    <string name="about_us">关于我们</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="terms_and_conditions">条款和条件</string>
+    <string name="licenses">开源许可</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choose_theme">Choose Theme</string>
+    <string name="choose_color_palette">Choose color palette</string>
+    <string name="choose_color_palette_message">Curated, quiet colors for a calm daily ledger</string>
+    <string name="palette_burgundy">Burgundy Classic</string>
+    <string name="palette_burgundy_description">Deep wine red, ivory and muted gold</string>
+    <string name="palette_morandi_sage">Morandi Sage</string>
+    <string name="palette_morandi_sage_description">Quiet gray-green with a warm neutral accent</string>
+    <string name="palette_lavender_mist">Lavender Mist</string>
+    <string name="palette_lavender_mist_description">Soft muted lavender with a calm neutral accent</string>
+    <string name="palette_macaron_mist">Soft Macaron</string>
+    <string name="palette_macaron_mist_description">A muted, creamy pastel with a calm rose tone</string>
+    <string name="palette_oat_cream">Oat Cream</string>
+    <string name="palette_oat_cream_description">Soft oat, cream and calm brown</string>
+    <string name="palette_dusty_rose">Dusty Rose</string>
+    <string name="palette_dusty_rose_description">Muted rose with a restrained vintage tone</string>
+    <string name="palette_misty_slate">Misty Slate</string>
+    <string name="palette_misty_slate_description">Hazy blue-gray with a quiet, clean finish</string>
+    <string name="palette_custom">Custom Palette</string>
+    <string name="palette_custom_description">Personalized custom color and ambient photo</string>
+</resources>

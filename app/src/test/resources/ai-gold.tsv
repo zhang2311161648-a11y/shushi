@@ -1,0 +1,264 @@
+colloquial-01	text	default	昨天午饭8元，微信付的	800	EXPENSE	2026-10-09	wallet	?
+colloquial-02	text	default	昨天午饭18元，微信付的	1800	EXPENSE	2026-10-09	wallet	?
+colloquial-03	text	default	昨天午饭22元，微信付的	2200	EXPENSE	2026-10-09	wallet	?
+colloquial-04	text	default	昨天午饭35元，微信付的	3500	EXPENSE	2026-10-09	wallet	?
+colloquial-05	text	default	昨天午饭99元，微信付的	9900	EXPENSE	2026-10-09	wallet	?
+colloquial-06	text	default	昨天午饭108元，微信付的	10800	EXPENSE	2026-10-09	wallet	?
+colloquial-07	text	default	微信买早餐8块钱	800	EXPENSE	2026-10-10	wallet	?
+colloquial-08	text	default	微信买早餐18块钱	1800	EXPENSE	2026-10-10	wallet	?
+colloquial-09	text	default	微信买早餐22块钱	2200	EXPENSE	2026-10-10	wallet	?
+colloquial-10	text	default	微信买早餐35块钱	3500	EXPENSE	2026-10-10	wallet	?
+colloquial-11	text	default	微信买早餐99块钱	9900	EXPENSE	2026-10-10	wallet	?
+colloquial-12	text	default	微信买早餐108块钱	10800	EXPENSE	2026-10-10	wallet	?
+colloquial-13	text	default	今天用支付宝餐饮花了8.50元	850	EXPENSE	2026-10-10	ali	food
+colloquial-14	text	default	今天用支付宝餐饮花了18.50元	1850	EXPENSE	2026-10-10	ali	food
+colloquial-15	text	default	今天用支付宝餐饮花了22.50元	2250	EXPENSE	2026-10-10	ali	food
+colloquial-16	text	default	今天用支付宝餐饮花了35.50元	3550	EXPENSE	2026-10-10	ali	food
+colloquial-17	text	default	今天用支付宝餐饮花了99.50元	9950	EXPENSE	2026-10-10	ali	food
+colloquial-18	text	default	今天用支付宝餐饮花了108.50元	10850	EXPENSE	2026-10-10	ali	food
+colloquial-19	text	default	微信支出餐饮￥8.05	805	EXPENSE	2026-10-10	wallet	food
+colloquial-20	text	default	微信支出餐饮￥18.05	1805	EXPENSE	2026-10-10	wallet	food
+colloquial-21	text	default	微信支出餐饮￥22.05	2205	EXPENSE	2026-10-10	wallet	food
+colloquial-22	text	default	微信支出餐饮￥35.05	3505	EXPENSE	2026-10-10	wallet	food
+colloquial-23	text	default	微信支出餐饮￥99.05	9905	EXPENSE	2026-10-10	wallet	food
+colloquial-24	text	default	微信支出餐饮￥108.05	10805	EXPENSE	2026-10-10	wallet	food
+multiple-01	text	default	微信早餐8元，支付宝午饭18元；微信打车22元	800,1800,2200	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-02	text	default	微信早餐9元，支付宝午饭19元；微信打车23元	900,1900,2300	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-03	text	default	微信早餐10元，支付宝午饭20元；微信打车24元	1000,2000,2400	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-04	text	default	微信早餐11元，支付宝午饭21元；微信打车25元	1100,2100,2500	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-05	text	default	微信早餐12元，支付宝午饭22元；微信打车26元	1200,2200,2600	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-06	text	default	微信早餐13元，支付宝午饭23元；微信打车27元	1300,2300,2700	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-07	text	default	微信早餐14元，支付宝午饭24元；微信打车28元	1400,2400,2800	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-08	text	default	微信早餐15元，支付宝午饭25元；微信打车29元	1500,2500,2900	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-09	text	default	微信早餐16元，支付宝午饭26元；微信打车30元	1600,2600,3000	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-10	text	default	微信早餐17元，支付宝午饭27元；微信打车31元	1700,2700,3100	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-11	text	default	微信早餐18元，支付宝午饭28元；微信打车32元	1800,2800,3200	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-12	text	default	微信早餐19元，支付宝午饭29元；微信打车33元	1900,2900,3300	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-13	text	default	微信早餐20元，支付宝午饭30元；微信打车34元	2000,3000,3400	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-14	text	default	微信早餐21元，支付宝午饭31元；微信打车35元	2100,3100,3500	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-15	text	default	微信早餐22元，支付宝午饭32元；微信打车36元	2200,3200,3600	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-16	text	default	微信早餐23元，支付宝午饭33元；微信打车37元	2300,3300,3700	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-17	text	default	微信早餐24元，支付宝午饭34元；微信打车38元	2400,3400,3800	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-18	text	default	微信早餐25元，支付宝午饭35元；微信打车39元	2500,3500,3900	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-19	text	default	微信早餐26元，支付宝午饭36元；微信打车40元	2600,3600,4000	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-20	text	default	微信早餐27元，支付宝午饭37元；微信打车41元	2700,3700,4100	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-21	text	default	微信早餐28元，支付宝午饭38元；微信打车42元	2800,3800,4200	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-22	text	default	微信早餐29元，支付宝午饭39元；微信打车43元	2900,3900,4300	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-23	text	default	微信早餐30元，支付宝午饭40元；微信打车44元	3000,4000,4400	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+multiple-24	text	default	微信早餐31元，支付宝午饭41元；微信打车45元	3100,4100,4500	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,ali,wallet	?,?,?
+refund-01	text	default	昨天微信退款10元餐饮	1000	?	2026-10-09	wallet	?
+refund-02	text	default	昨天微信退回11元餐饮	1100	?	2026-10-09	wallet	?
+refund-03	text	default	昨天微信退了12元餐饮	1200	?	2026-10-09	wallet	?
+refund-04	text	default	昨天微信报销13元餐饮	1300	?	2026-10-09	wallet	?
+refund-05	text	default	昨天微信退款14元餐饮	1400	?	2026-10-09	wallet	?
+refund-06	text	default	昨天微信退回15元餐饮	1500	?	2026-10-09	wallet	?
+refund-07	text	default	昨天微信退了16元餐饮	1600	?	2026-10-09	wallet	?
+refund-08	text	default	昨天微信报销17元餐饮	1700	?	2026-10-09	wallet	?
+refund-09	text	default	昨天微信退款18元餐饮	1800	?	2026-10-09	wallet	?
+refund-10	text	default	昨天微信退回19元餐饮	1900	?	2026-10-09	wallet	?
+refund-11	text	default	昨天微信退了20元餐饮	2000	?	2026-10-09	wallet	?
+refund-12	text	default	昨天微信报销21元餐饮	2100	?	2026-10-09	wallet	?
+refund-13	text	default	昨天微信退款22元餐饮	2200	?	2026-10-09	wallet	?
+refund-14	text	default	昨天微信退回23元餐饮	2300	?	2026-10-09	wallet	?
+refund-15	text	default	昨天微信退了24元餐饮	2400	?	2026-10-09	wallet	?
+refund-16	text	default	昨天微信报销25元餐饮	2500	?	2026-10-09	wallet	?
+refund-17	text	default	昨天微信退款26元餐饮	2600	?	2026-10-09	wallet	?
+refund-18	text	default	昨天微信退回27元餐饮	2700	?	2026-10-09	wallet	?
+refund-19	text	default	昨天微信退了28元餐饮	2800	?	2026-10-09	wallet	?
+refund-20	text	default	昨天微信报销29元餐饮	2900	?	2026-10-09	wallet	?
+refund-21	text	default	昨天微信退款30元餐饮	3000	?	2026-10-09	wallet	?
+refund-22	text	default	昨天微信退回31元餐饮	3100	?	2026-10-09	wallet	?
+refund-23	text	default	昨天微信退了32元餐饮	3200	?	2026-10-09	wallet	?
+refund-24	text	default	昨天微信报销33元餐饮	3300	?	2026-10-09	wallet	?
+transfer-01	text	default	今天自己的微信转到支付宝100元	10000	TRANSFER	2026-10-10	?	?
+transfer-02	text	default	今天自己的微信转到支付宝101元	10100	TRANSFER	2026-10-10	?	?
+transfer-03	text	default	今天自己的微信转到支付宝102元	10200	TRANSFER	2026-10-10	?	?
+transfer-04	text	default	今天自己的微信转到支付宝103元	10300	TRANSFER	2026-10-10	?	?
+transfer-05	text	default	今天自己的微信转到支付宝104元	10400	TRANSFER	2026-10-10	?	?
+transfer-06	text	default	今天自己的微信转到支付宝105元	10500	TRANSFER	2026-10-10	?	?
+transfer-07	text	default	今天自己的微信转到支付宝106元	10600	TRANSFER	2026-10-10	?	?
+transfer-08	text	default	今天自己的微信转到支付宝107元	10700	TRANSFER	2026-10-10	?	?
+transfer-09	text	default	今天自己的微信转到支付宝108元	10800	TRANSFER	2026-10-10	?	?
+transfer-10	text	default	今天自己的微信转到支付宝109元	10900	TRANSFER	2026-10-10	?	?
+transfer-11	text	default	今天自己的微信转到支付宝110元	11000	TRANSFER	2026-10-10	?	?
+transfer-12	text	default	今天自己的微信转到支付宝111元	11100	TRANSFER	2026-10-10	?	?
+transfer-13	text	default	今天自己的微信转到支付宝112元	11200	TRANSFER	2026-10-10	?	?
+transfer-14	text	default	今天自己的微信转到支付宝113元	11300	TRANSFER	2026-10-10	?	?
+transfer-15	text	default	今天自己的微信转到支付宝114元	11400	TRANSFER	2026-10-10	?	?
+transfer-16	text	default	今天自己的微信转到支付宝115元	11500	TRANSFER	2026-10-10	?	?
+transfer-17	text	default	今天自己的微信转到支付宝116元	11600	TRANSFER	2026-10-10	?	?
+transfer-18	text	default	今天自己的微信转到支付宝117元	11700	TRANSFER	2026-10-10	?	?
+transfer-19	text	default	今天自己的微信转到支付宝118元	11800	TRANSFER	2026-10-10	?	?
+transfer-20	text	default	今天自己的微信转到支付宝119元	11900	TRANSFER	2026-10-10	?	?
+transfer-21	text	default	今天自己的微信转到支付宝120元	12000	TRANSFER	2026-10-10	?	?
+transfer-22	text	default	今天自己的微信转到支付宝121元	12100	TRANSFER	2026-10-10	?	?
+transfer-23	text	default	今天自己的微信转到支付宝122元	12200	TRANSFER	2026-10-10	?	?
+transfer-24	text	default	今天自己的微信转到支付宝123元	12300	TRANSFER	2026-10-10	?	?
+equal_distinct-01	text	default	微信早餐5元，微信午饭5元，微信晚饭5元	500,500,500	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-02	text	default	微信早餐6元，微信午饭6元，微信晚饭6元	600,600,600	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-03	text	default	微信早餐7元，微信午饭7元，微信晚饭7元	700,700,700	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-04	text	default	微信早餐8元，微信午饭8元，微信晚饭8元	800,800,800	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-05	text	default	微信早餐9元，微信午饭9元，微信晚饭9元	900,900,900	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-06	text	default	微信早餐10元，微信午饭10元，微信晚饭10元	1000,1000,1000	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-07	text	default	微信早餐11元，微信午饭11元，微信晚饭11元	1100,1100,1100	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-08	text	default	微信早餐12元，微信午饭12元，微信晚饭12元	1200,1200,1200	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-09	text	default	微信早餐13元，微信午饭13元，微信晚饭13元	1300,1300,1300	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-10	text	default	微信早餐14元，微信午饭14元，微信晚饭14元	1400,1400,1400	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-11	text	default	微信早餐15元，微信午饭15元，微信晚饭15元	1500,1500,1500	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-12	text	default	微信早餐16元，微信午饭16元，微信晚饭16元	1600,1600,1600	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-13	text	default	微信早餐17元，微信午饭17元，微信晚饭17元	1700,1700,1700	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-14	text	default	微信早餐18元，微信午饭18元，微信晚饭18元	1800,1800,1800	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-15	text	default	微信早餐19元，微信午饭19元，微信晚饭19元	1900,1900,1900	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-16	text	default	微信早餐20元，微信午饭20元，微信晚饭20元	2000,2000,2000	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-17	text	default	微信早餐21元，微信午饭21元，微信晚饭21元	2100,2100,2100	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-18	text	default	微信早餐22元，微信午饭22元，微信晚饭22元	2200,2200,2200	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-19	text	default	微信早餐23元，微信午饭23元，微信晚饭23元	2300,2300,2300	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-20	text	default	微信早餐24元，微信午饭24元，微信晚饭24元	2400,2400,2400	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-21	text	default	微信早餐25元，微信午饭25元，微信晚饭25元	2500,2500,2500	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-22	text	default	微信早餐26元，微信午饭26元，微信晚饭26元	2600,2600,2600	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-23	text	default	微信早餐27元，微信午饭27元，微信晚饭27元	2700,2700,2700	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+equal_distinct-24	text	default	微信早餐28元，微信午饭28元，微信晚饭28元	2800,2800,2800	EXPENSE,EXPENSE,EXPENSE	2026-10-10,2026-10-10,2026-10-10	wallet,wallet,wallet	?,?,?
+historical-01	text	default	前天微信餐饮支出20元	2000	EXPENSE	2026-10-08	wallet	food
+historical-02	text	default	2026年9月1日微信餐饮支出21元	2100	EXPENSE	2026-09-01	wallet	food
+historical-03	text	default	2026-09-15微信餐饮支出22元	2200	EXPENSE	2026-09-15	wallet	food
+historical-04	text	default	上个月微信餐饮支出23元	2300	EXPENSE	?	wallet	food
+historical-05	text	default	前天微信餐饮支出24元	2400	EXPENSE	2026-10-08	wallet	food
+historical-06	text	default	2026年9月1日微信餐饮支出25元	2500	EXPENSE	2026-09-01	wallet	food
+historical-07	text	default	2026-09-15微信餐饮支出26元	2600	EXPENSE	2026-09-15	wallet	food
+historical-08	text	default	上个月微信餐饮支出27元	2700	EXPENSE	?	wallet	food
+historical-09	text	default	前天微信餐饮支出28元	2800	EXPENSE	2026-10-08	wallet	food
+historical-10	text	default	2026年9月1日微信餐饮支出29元	2900	EXPENSE	2026-09-01	wallet	food
+historical-11	text	default	2026-09-15微信餐饮支出30元	3000	EXPENSE	2026-09-15	wallet	food
+historical-12	text	default	上个月微信餐饮支出31元	3100	EXPENSE	?	wallet	food
+historical-13	text	default	前天微信餐饮支出32元	3200	EXPENSE	2026-10-08	wallet	food
+historical-14	text	default	2026年9月1日微信餐饮支出33元	3300	EXPENSE	2026-09-01	wallet	food
+historical-15	text	default	2026-09-15微信餐饮支出34元	3400	EXPENSE	2026-09-15	wallet	food
+historical-16	text	default	上个月微信餐饮支出35元	3500	EXPENSE	?	wallet	food
+historical-17	text	default	前天微信餐饮支出36元	3600	EXPENSE	2026-10-08	wallet	food
+historical-18	text	default	2026年9月1日微信餐饮支出37元	3700	EXPENSE	2026-09-01	wallet	food
+historical-19	text	default	2026-09-15微信餐饮支出38元	3800	EXPENSE	2026-09-15	wallet	food
+historical-20	text	default	上个月微信餐饮支出39元	3900	EXPENSE	?	wallet	food
+historical-21	text	default	前天微信餐饮支出40元	4000	EXPENSE	2026-10-08	wallet	food
+historical-22	text	default	2026年9月1日微信餐饮支出41元	4100	EXPENSE	2026-09-01	wallet	food
+historical-23	text	default	2026-09-15微信餐饮支出42元	4200	EXPENSE	2026-09-15	wallet	food
+historical-24	text	default	上个月微信餐饮支出43元	4300	EXPENSE	?	wallet	food
+missing-01	text	default	微信餐饮支出，金额忘记了	?	EXPENSE	2026-10-10	wallet	food
+missing-02	text	default	餐饮花了13元	1300	EXPENSE	2026-10-10	?	food
+missing-03	text	default	微信14元	1400	?	2026-10-10	wallet	?
+missing-04	text	default	昨天微信餐饮支出15元	1500	EXPENSE	2026-10-09	wallet	food
+missing-05	text	default	微信餐饮支出，金额忘记了	?	EXPENSE	2026-10-10	wallet	food
+missing-06	text	default	餐饮花了17元	1700	EXPENSE	2026-10-10	?	food
+missing-07	text	default	微信18元	1800	?	2026-10-10	wallet	?
+missing-08	text	default	昨天微信餐饮支出19元	1900	EXPENSE	2026-10-09	wallet	food
+missing-09	text	default	微信餐饮支出，金额忘记了	?	EXPENSE	2026-10-10	wallet	food
+missing-10	text	default	餐饮花了21元	2100	EXPENSE	2026-10-10	?	food
+missing-11	text	default	微信22元	2200	?	2026-10-10	wallet	?
+missing-12	text	default	昨天微信餐饮支出23元	2300	EXPENSE	2026-10-09	wallet	food
+missing-13	text	default	微信餐饮支出，金额忘记了	?	EXPENSE	2026-10-10	wallet	food
+missing-14	text	default	餐饮花了25元	2500	EXPENSE	2026-10-10	?	food
+missing-15	text	default	微信26元	2600	?	2026-10-10	wallet	?
+missing-16	text	default	昨天微信餐饮支出27元	2700	EXPENSE	2026-10-09	wallet	food
+missing-17	text	default	微信餐饮支出，金额忘记了	?	EXPENSE	2026-10-10	wallet	food
+missing-18	text	default	餐饮花了29元	2900	EXPENSE	2026-10-10	?	food
+missing-19	text	default	微信30元	3000	?	2026-10-10	wallet	?
+missing-20	text	default	昨天微信餐饮支出31元	3100	EXPENSE	2026-10-09	wallet	food
+missing-21	text	default	微信餐饮支出，金额忘记了	?	EXPENSE	2026-10-10	wallet	food
+missing-22	text	default	餐饮花了33元	3300	EXPENSE	2026-10-10	?	food
+missing-23	text	default	微信34元	3400	?	2026-10-10	wallet	?
+missing-24	text	default	昨天微信餐饮支出35元	3500	EXPENSE	2026-10-09	wallet	food
+custom_multiledger-01	text	other	微信宠物医疗支出30元	3000	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-02	text	other	微信宠物医疗支出31元	3100	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-03	text	other	微信宠物医疗支出32元	3200	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-04	text	other	微信宠物医疗支出33元	3300	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-05	text	other	微信宠物医疗支出34元	3400	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-06	text	other	微信宠物医疗支出35元	3500	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-07	text	other	微信宠物医疗支出36元	3600	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-08	text	other	微信宠物医疗支出37元	3700	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-09	text	other	微信宠物医疗支出38元	3800	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-10	text	other	微信宠物医疗支出39元	3900	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-11	text	other	微信宠物医疗支出40元	4000	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-12	text	other	微信宠物医疗支出41元	4100	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-13	text	other	微信宠物医疗支出42元	4200	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-14	text	other	微信宠物医疗支出43元	4300	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-15	text	other	微信宠物医疗支出44元	4400	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-16	text	other	微信宠物医疗支出45元	4500	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-17	text	other	微信宠物医疗支出46元	4600	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-18	text	other	微信宠物医疗支出47元	4700	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-19	text	other	微信宠物医疗支出48元	4800	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-20	text	other	微信宠物医疗支出49元	4900	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-21	text	other	微信宠物医疗支出50元	5000	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-22	text	other	微信宠物医疗支出51元	5100	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-23	text	other	微信宠物医疗支出52元	5200	EXPENSE	2026-10-10	other-wallet	other-pet
+custom_multiledger-24	text	other	微信宠物医疗支出53元	5300	EXPENSE	2026-10-10	other-wallet	other-pet
+conflict-01	text	default	微信餐饮支出10元另有11元	?	EXPENSE	2026-10-10	wallet	food
+conflict-02	text	default	微信餐饮花了11.001元	?	EXPENSE	2026-10-10	wallet	food
+conflict-03	text	default	不要记账 微信餐饮支出12元	?	?	2026-10-10	wallet	?
+conflict-04	text	default	微信餐饮支出13美元	?	?	2026-10-10	wallet	?
+conflict-05	text	default	微信餐饮支出14元另有15元	?	EXPENSE	2026-10-10	wallet	food
+conflict-06	text	default	微信餐饮花了15.001元	?	EXPENSE	2026-10-10	wallet	food
+conflict-07	text	default	不要记账 微信餐饮支出16元	?	?	2026-10-10	wallet	?
+conflict-08	text	default	微信餐饮支出17美元	?	?	2026-10-10	wallet	?
+conflict-09	text	default	微信餐饮支出18元另有19元	?	EXPENSE	2026-10-10	wallet	food
+conflict-10	text	default	微信餐饮花了19.001元	?	EXPENSE	2026-10-10	wallet	food
+conflict-11	text	default	不要记账 微信餐饮支出20元	?	?	2026-10-10	wallet	?
+conflict-12	text	default	微信餐饮支出21美元	?	?	2026-10-10	wallet	?
+conflict-13	text	default	微信餐饮支出22元另有23元	?	EXPENSE	2026-10-10	wallet	food
+conflict-14	text	default	微信餐饮花了23.001元	?	EXPENSE	2026-10-10	wallet	food
+conflict-15	text	default	不要记账 微信餐饮支出24元	?	?	2026-10-10	wallet	?
+conflict-16	text	default	微信餐饮支出25美元	?	?	2026-10-10	wallet	?
+conflict-17	text	default	微信餐饮支出26元另有27元	?	EXPENSE	2026-10-10	wallet	food
+conflict-18	text	default	微信餐饮花了27.001元	?	EXPENSE	2026-10-10	wallet	food
+conflict-19	text	default	不要记账 微信餐饮支出28元	?	?	2026-10-10	wallet	?
+conflict-20	text	default	微信餐饮支出29美元	?	?	2026-10-10	wallet	?
+conflict-21	text	default	微信餐饮支出30元另有31元	?	EXPENSE	2026-10-10	wallet	food
+conflict-22	text	default	微信餐饮花了31.001元	?	EXPENSE	2026-10-10	wallet	food
+conflict-23	text	default	不要记账 微信餐饮支出32元	?	?	2026-10-10	wallet	?
+conflict-24	text	default	微信餐饮支出33美元	?	?	2026-10-10	wallet	?
+screenshot_ocr_text-01	screenshot	default	微信支付成功\n餐饮\n实付￥18.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000000	1800	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-02	screenshot	default	微信支付成功\n餐饮\n实付￥19.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000001\n原价24元	?	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-03	screenshot	default	微信支付成功\n餐饮\n实付￥20.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000002	2000	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-04	screenshot	default	微信支付成功\n餐饮\n实付￥21.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000003\n原价26元	?	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-05	screenshot	default	微信支付成功\n餐饮\n实付￥22.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000004	2200	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-06	screenshot	default	微信支付成功\n餐饮\n实付￥23.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000005\n原价28元	?	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-07	screenshot	default	微信支付成功\n餐饮\n实付￥24.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000006	2400	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-08	screenshot	default	微信支付成功\n餐饮\n实付￥25.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000007\n原价30元	?	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-09	screenshot	default	微信支付成功\n餐饮\n实付￥26.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000008	2600	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-10	screenshot	default	微信支付成功\n餐饮\n实付￥27.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000009\n原价32元	?	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-11	screenshot	default	微信支付成功\n餐饮\n实付￥28.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000010	2800	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-12	screenshot	default	微信支付成功\n餐饮\n实付￥29.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000011\n原价34元	?	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-13	screenshot	default	微信支付成功\n餐饮\n实付￥30.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000012	3000	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-14	screenshot	default	微信支付成功\n餐饮\n实付￥31.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000013\n原价36元	?	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-15	screenshot	default	微信支付成功\n餐饮\n实付￥32.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000014	3200	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-16	screenshot	default	微信支付成功\n餐饮\n实付￥33.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000015\n原价38元	?	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-17	screenshot	default	微信支付成功\n餐饮\n实付￥34.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000016	3400	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-18	screenshot	default	微信支付成功\n餐饮\n实付￥35.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000017\n原价40元	?	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-19	screenshot	default	微信支付成功\n餐饮\n实付￥36.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000018	3600	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-20	screenshot	default	微信支付成功\n餐饮\n实付￥37.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000019\n原价42元	?	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-21	screenshot	default	微信支付成功\n餐饮\n实付￥38.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000020	3800	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-22	screenshot	default	微信支付成功\n餐饮\n实付￥39.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000021\n原价44元	?	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-23	screenshot	default	微信支付成功\n餐饮\n实付￥40.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000022	4000	EXPENSE	2026-09-15	wallet	food
+screenshot_ocr_text-24	screenshot	default	微信支付成功\n餐饮\n实付￥41.00\n交易时间：2026-09-15 12:30:00\n交易单号：SYNTHETIC000023\n原价46元	?	EXPENSE	2026-09-15	wallet	food
+income-01	text	default	昨天微信收到工资1500元	150000	INCOME	2026-10-09	wallet	salary
+income-02	text	default	支付宝工资收入1501.50元	150150	INCOME	2026-10-10	ali	salary
+income-03	text	default	今天工资1502元到微信	150200	INCOME	2026-10-10	wallet	salary
+income-04	text	default	2026-09-15支付宝收到工资1503元	150300	INCOME	2026-09-15	ali	salary
+income-05	text	default	昨天微信收到工资1504元	150400	INCOME	2026-10-09	wallet	salary
+income-06	text	default	支付宝工资收入1505.50元	150550	INCOME	2026-10-10	ali	salary
+income-07	text	default	今天工资1506元到微信	150600	INCOME	2026-10-10	wallet	salary
+income-08	text	default	2026-09-15支付宝收到工资1507元	150700	INCOME	2026-09-15	ali	salary
+income-09	text	default	昨天微信收到工资1508元	150800	INCOME	2026-10-09	wallet	salary
+income-10	text	default	支付宝工资收入1509.50元	150950	INCOME	2026-10-10	ali	salary
+income-11	text	default	今天工资1510元到微信	151000	INCOME	2026-10-10	wallet	salary
+income-12	text	default	2026-09-15支付宝收到工资1511元	151100	INCOME	2026-09-15	ali	salary
+income-13	text	default	昨天微信收到工资1512元	151200	INCOME	2026-10-09	wallet	salary
+income-14	text	default	支付宝工资收入1513.50元	151350	INCOME	2026-10-10	ali	salary
+income-15	text	default	今天工资1514元到微信	151400	INCOME	2026-10-10	wallet	salary
+income-16	text	default	2026-09-15支付宝收到工资1515元	151500	INCOME	2026-09-15	ali	salary
+income-17	text	default	昨天微信收到工资1516元	151600	INCOME	2026-10-09	wallet	salary
+income-18	text	default	支付宝工资收入1517.50元	151750	INCOME	2026-10-10	ali	salary
+income-19	text	default	今天工资1518元到微信	151800	INCOME	2026-10-10	wallet	salary
+income-20	text	default	2026-09-15支付宝收到工资1519元	151900	INCOME	2026-09-15	ali	salary
+income-21	text	default	昨天微信收到工资1520元	152000	INCOME	2026-10-09	wallet	salary
+income-22	text	default	支付宝工资收入1521.50元	152150	INCOME	2026-10-10	ali	salary
+income-23	text	default	今天工资1522元到微信	152200	INCOME	2026-10-10	wallet	salary
+income-24	text	default	2026-09-15支付宝收到工资1523元	152300	INCOME	2026-09-15	ali	salary

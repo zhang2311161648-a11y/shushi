@@ -1,0 +1,169 @@
+@file:OptIn(ExperimentalFoundationApi::class)
+
+package com.naveenapps.expensemanager.core.designsystem.ui.components
+
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.onFocusChanged
+import androidx.compose.ui.text.TextRange
+import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.text.input.TextFieldValue
+import androidx.compose.ui.unit.dp
+import com.naveenapps.designsystem.theme.NaveenAppsPreviewTheme
+import com.naveenapps.designsystem.utils.AppPreviewsLightAndDarkMode
+
+@Composable
+fun AutoSelectTextField(
+    text: String,
+    onTextChange: (String) -> Unit,
+    modifier: Modifier = Modifier,
+    label: @Composable (() -> Unit)? = null,
+    singleLine: Boolean = true,
+    errorMessage: String = "",
+    isError: Boolean = false,
+    minLines: Int = 1,
+    placeholder: String? = null,
+    supportingText: String? = null,
+    trailingIcon: @Composable (() -> Unit)? = null,
+    leadingIcon: @Composable (() -> Unit)? = null,
+    keyboardOptions: KeyboardOptions = KeyboardOptions(imeAction = ImeAction.Next),
+    enabled: Boolean = true,
+) {
+    var textFieldValue by remember {
+        mutableStateOf(
+            TextFieldValue(
+                text = text,
+                selection = TextRange(text.length)
+            )
+        )
+    }
+
+    // Keep programmatic/external updates separate from IME callbacks. Mutating
+    // TextFieldValue during composition can leave the IME connected to the
+    // previous field, which is especially visible with Chinese composing text.
+    LaunchedEffect(text) {
+        if (textFieldValue.text != text) {
+            textFieldValue = TextFieldValue(
+                text = text,
+                selection = TextRange(text.length),
+            )
+        }
+    }
+
+    var hasFocusedOnce by remember { mutableStateOf(false) }
+
+    AppTextField(
+        trailingIcon = trailingIcon,
+        leadingIcon = leadingIcon,
+        value = textFieldValue,
+        onValueChange = {
+            // Always retain the complete value from the IME, including selection
+            // and composition, even when the visible text has not changed yet.
+            textFieldValue = it
+            if (it.text != text) {
+                onTextChange(it.text)
+            }
+        },
+        placeholder = placeholder,
+        supportingText = supportingText,
+        label = label,
+        singleLine = singleLine,
+        modifier = modifier
+            .onFocusChanged { focusState ->
+                if (focusState.isFocused) {
+                    // Select all only the first time the field is focused
+                    if (!hasFocusedOnce) {
+                        hasFocusedOnce = true
+                        textFieldValue = textFieldValue.copy(
+                            selection = TextRange(0, textFieldValue.text.length)
+                        )
+                    }
+                } else {
+                    hasFocusedOnce = false
+                }
+            },
+        errorMessage = errorMessage,
+        isError = isError,
+        minLines = minLines,
+        keyboardOptions = keyboardOptions,
+        enabled = enabled,
+    )
+}
+
+@Composable
+fun AppTextField(
+    value: TextFieldValue,
+    onValueChange: (TextFieldValue) -> Unit,
+    label: @Composable (() -> Unit)?,
+    singleLine: Boolean,
+    modifier: Modifier = Modifier,
+    errorMessage: String = "",
+    isError: Boolean = false,
+    minLines: Int = 1,
+    maxLines: Int = 1,
+    placeholder: String? = null,
+    supportingText: String? = null,
+    trailingIcon: @Composable (() -> Unit)? = null,
+    leadingIcon: @Composable (() -> Unit)? = null,
+    keyboardOptions: KeyboardOptions = KeyboardOptions(imeAction = ImeAction.Next),
+    enabled: Boolean = true,
+) {
+    OutlinedTextField(
+        value = value,
+        onValueChange = {
+            onValueChange.invoke(it)
+        },
+        trailingIcon = trailingIcon,
+        leadingIcon = leadingIcon,
+        modifier = modifier,
+        label = label,
+        singleLine = singleLine,
+        shape = RoundedCornerShape(8.dp),
+        isError = isError,
+        enabled = enabled,
+        supportingText = if (isError) {
+            errorMessage.let {
+                { Text(it) }
+            }
+        } else {
+            supportingText?.let {
+                { Text(it) }
+            }
+        },
+        placeholder = placeholder?.let {
+            { Text(it) }
+        },
+        minLines = minLines,
+        maxLines = maxLines,
+        keyboardOptions = keyboardOptions,
+    )
+}
+
+@AppPreviewsLightAndDarkMode
+@Composable
+private fun AppTextFieldPreview() {
+    NaveenAppsPreviewTheme {
+        var text by remember { mutableStateOf("Editable text") }
+
+        AutoSelectTextField(
+            text = text,
+            onTextChange = { text = it },
+            label = { Text("Enter something") },
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp)
+        )
+    }
+}

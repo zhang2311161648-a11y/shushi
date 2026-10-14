@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="today">Today</string>
+    <string name="this_week">This Week</string>
+    <string name="this_month">This Month</string>
+    <string name="this_year">This Year</string>
+    <string name="all_time">All time</string>
+    <string name="custom">Custom</string>
+
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="notes">Notes</string>
+    <string name="average">Average</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="time">Time</string>
+    <string name="month">Month</string>
+    <string name="from_account">From Account</string>
+    <string name="to_account">To Account</string>
+    <string name="transaction_type">Transaction Type</string>
+    <string name="category_type">Category Type</string>
+    <string name="account_type">Account Type</string>
+    <string name="exported_on">Exported On</string>
+    <string name="total_transactions">Total Transactions</string>
+    <string name="total_income">Total Income</string>
+    <string name="total_expense">Total Expense</string>
+    <string name="net_balance">Net Balance</string>
+
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="set_by_battery_saver">Set by battery saver</string>
+    <string name="system_default">System default</string>
+
+    <string name="language_english">English</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_french">Français</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_portuguese">Português</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_polish">Polski</string>
+    <string name="language_turkish">Türkçe</string>
+    <string name="language_indonesian">Bahasa Indonesia</string>
+    <string name="language_vietnamese">Tiếng Việt</string>
+    <string name="language_italian">Italiano</string>
+    <string name="language_korean">한국어</string>
+
+    <string name="category_clothing">Clothing</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="category_food">Food</string>
+    <string name="category_health">Health</string>
+    <string name="category_leisure">Leisure</string>
+    <string name="category_shopping">Shopping</string>
+    <string name="category_transportation">Transportation</string>
+    <string name="category_utilities">Utilities</string>
+    <string name="category_salary">Salary</string>
+    <string name="category_gift">Gift</string>
+    <string name="category_coupons">Coupons</string>
+</resources>

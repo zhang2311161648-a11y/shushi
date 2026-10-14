@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stats_month_increase">Up %1$s from last month</string>
+    <string name="stats_month_decrease">Down %1$s from last month</string>
+    <string name="stats_month_unchanged">Unchanged from last month</string>
+    <string name="analysis">Analysis</string>
+    <string name="average_and_projected">Average &amp; Projected</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="no_chart_available">No data is available for analysis</string>
+    <string name="stats_expense_mode">Expense</string>
+    <string name="stats_income_mode">Income</string>
+    <string name="expense_ranking">Expense ranking</string>
+    <string name="income_ranking">Income ranking</string>
+    <string name="stats_total_for_period">Current period total</string>
+    <string name="stats_no_records">There are no records in this period</string>
+    <string name="stats_record_transaction">Record a transaction</string>
+    <string name="category_detail_expense">Expense details ranking</string>
+    <string name="category_detail_income">Income details ranking</string>
+    <string name="sort_by_amount">By amount</string>
+    <string name="sort_by_time">By time</string>
+    <string name="stats_current_period">Current period</string>
+    <string name="stats_selected_month">%1$d/%2$02d</string>
+    <string name="stats_choose_month">Choose month</string>
+    <string name="stats_year">Year</string>
+    <string name="stats_month_number">%1$02d</string>
+    <string name="stats_previous_month">Previous month</string>
+    <string name="stats_next_month">Next month</string>
+    <string name="stats_selected_week">%1$04d/%2$02d/%3$02d - %4$04d/%5$02d/%6$02d</string>
+    <string name="stats_previous_week">Previous week</string>
+    <string name="stats_next_week">Next week</string>
+    <string name="stats_selected_year">%1$d</string>
+    <string name="stats_choose_year">Choose year</string>
+    <string name="stats_previous_year">Previous year</string>
+    <string name="stats_next_year">Next year</string>
+    <string name="stats_trend_chart">Trend</string>
+    <string name="stats_category_pie_chart">Category pie</string>
+    <string name="stats_swipe_to_switch">Swipe left or right to switch charts</string>
+    <string name="cancel">Cancel</string>
+</resources>

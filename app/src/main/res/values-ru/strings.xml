@@ -1,0 +1,100 @@
+<resources>
+
+    <string name="app_name">书史记账</string>
+
+    <string name="jiangji_details">Записи</string>
+    <string name="jiangji_stats">Статистика</string>
+    <string name="jiangji_me">Мой профиль</string>
+    <string name="jiangji_assets">Активы</string>
+    <string name="jiangji_add_transaction">Добавить</string>
+
+
+    <!-- Failure message strings -->
+
+    <string name="select">Выбрать</string>
+
+    <string name="title_home">Главная</string>
+    <string name="view_all">Смотреть все</string>
+    <string name="accounts">Счёт</string>
+
+    <string name="category_name">Название категории</string>
+
+
+    <string name="title_graph">График</string>
+
+
+    <string name="currency">Валюта</string>
+
+    <string name="choose_color">Выбрать цвет</string>
+    <string name="choose_icon">Выбрать значок</string>
+
+
+    <string name="categories">Категории</string>
+    <string name="total">Итого</string>
+    <string name="transaction_summary">Сводка</string>
+    <string name="clear_all">Очистить всё</string>
+    <string name="category_selection_message">Нужно выбрать хотя бы одну категорию, чтобы продолжить</string>
+    <string name="share">Поделиться</string>
+    <string name="hello">Привет!</string>
+    <string name="guest">Гость</string>
+    <string name="balance">Баланс</string>
+
+    <string name="add_transaction">Добавить операцию</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">ОК</string>
+    <string name="settings">Настройки</string>
+    <string name="analysis">Анализ</string>
+    <string name="transaction">Операция</string>
+
+    <string name="app_lock_title">Разблокировать Expense Manager</string>
+    <string name="app_lock_description">Подтвердите личность, чтобы продолжить</string>
+    <string name="app_lock_unlock">Разблокировать</string>
+
+    <string name="jiangji_my_space">Моё пространство</string>
+    <string name="jiangji_private_local_data">Локальные данные только для вас</string>
+    <string name="jiangji_slogan">Записывайте жизнь, создавая свою историю.</string>
+    <string name="jiangji_my_ledger">Мой журнал</string>
+    <string name="jiangji_default_ledger_subtitle">Журнал по умолчанию · Нажмите, чтобы открыть записи</string>
+    <string name="jiangji_open_ledger">Открыть журнал</string>
+    <string name="jiangji_manage">Управление</string>
+    <string name="jiangji_account_management">Управление счетами</string>
+    <string name="jiangji_category_management">Управление категориями</string>
+    <string name="jiangji_budget_settings">Настройки бюджета</string>
+    <string name="jiangji_data_export">Экспорт данных</string>
+    <string name="jiangji_data_import">Импорт данных</string>
+    <string name="jiangji_import_warning">Импорт заменит текущий локальный журнал резервной копией ShuShi. Сначала создайте копию текущих данных, если хотите их сохранить.</string>
+    <string name="jiangji_confirm_import">Импортировать</string>
+    <string name="jiangji_feedback">Обратная связь</string>
+    <string name="jiangji_feedback_prompt">Расскажите, что можно улучшить в ShuShi. Ваши предложения помогут нам стать лучше.</string>
+    <string name="jiangji_feedback_contact">Контакт: Hal Justin · zhang2311161648@gmail.com</string>
+    <string name="jiangji_feedback_hint">Ваше предложение</string>
+    <string name="jiangji_feedback_send">Открыть почту</string>
+    <string name="jiangji_preferences">Предпочтения</string>
+    <string name="jiangji_appearance">Внешний вид</string>
+    <string name="jiangji_security">Безопасность</string>
+    <string name="jiangji_language">Язык</string>
+    <string name="jiangji_scheduled_reminder">Запланированные напоминания</string>
+    <string name="jiangji_about_app">О приложении %1$s</string>
+    <string name="jiangji_savings_tab">Сбережения</string>
+    <string name="jiangji_anxiety_relief_tab">Уменьшение тревоги</string>
+    <string name="jiangji_savings_title">Сбережения</string>
+    <string name="jiangji_savings_subtitle">Записывайте то, что вы действительно откладывали каждый месяц.</string>
+    <string name="jiangji_today_details">Записи за сегодня</string>
+    <string name="jiangji_accounting_period">Учётный период</string>
+    <string name="jiangji_current_period_overview">Обзор текущего периода</string>
+    <string name="jiangji_current_month_overview">Обзор текущего месяца</string>
+    <string name="jiangji_today_summary">Итоги за сегодня</string>
+    <string name="jiangji_view_all">Показать всё</string>
+    <string name="jiangji_account_balance">Баланс счёта</string>
+    <string name="jiangji_total_balance">Общий баланс</string>
+    <string name="jiangji_no_accounts">Счетов пока нет. Добавьте первый, чтобы начать.</string>
+    <string name="jiangji_more_accounts">Другие счета ›</string>
+    <string name="jiangji_income">Доходы</string>
+    <string name="jiangji_expense">Расходы</string>
+    <string name="jiangji_net_balance">Итоговый баланс</string>
+    <string name="jiangji_record_daily">Записать ежедневный расход</string>
+    <string name="jiangji_balance_value">Баланс %1$s</string>
+    <string name="jiangji_today_no_records">Сегодня записей нет</string>
+    <string name="jiangji_first_record">Добавить первую запись</string>
+    <string name="uncategorized">Без категории</string>
+</resources>
